@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<entry>
+		<motif>CTACCAAACACCC</motif>
+		<label>teszt</label>
+		<color>1327112</color>
+	</entry>
+	<entry>
+		<motif>ATCTGAACCTT</motif>
+		<label>teszt2</label>
+		<color>1327112</color>
+	</entry>
+	<entry>
+		<motif>[GA]CGTGTAAAGTAAATTTACAAC</motif>
+		<label>23BPZM27KDAZEIN </label>
+		<color>4165633</color>
+	</entry>
+	<entry>
+		<motif>TCCGCC[AT]CTTGTATTCGTTGCGTTG[AC]A</motif>
+		<label>27BPDRCONSENSUSPS25S </label>
+		<color>1327112</color>
+	</entry>
+</data>

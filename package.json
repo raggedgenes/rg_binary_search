@@ -1,0 +1,33 @@
+{
+  "name": "rg_binary_search",
+  "version": "0.0.1",
+  "description": "Binary motif search on RG_SEQ_DB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "rg_binaryencoder": "^0.0.1",
+    "rg_motifs_kmer": "^0.0.1",
+    "rg_parser": "^0.0.1",
+    "byline": "^4.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raggedgenes/rg_binary_search.git"
+  },
+  "keywords": [
+    "nodejs",
+    "motifs",
+    "bioinformatics"
+  ],
+  "author": "Szabolcs Makai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raggedgenes/rg_binary_search/issues"
+  },
+  "homepage": "https://github.com/raggedgenes/rg_binary_search#readme"
+}
