@@ -1,5 +1,4 @@
 var BS = require('rg_binary_search');
-var assert = require('assert');
 
 var file = './test/test.fasta';
 
