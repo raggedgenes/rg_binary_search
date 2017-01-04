@@ -1,5 +1,5 @@
-# rg_motif_search
-RG's motif search utility.
+# RG's motif search utility.
+
 
 Usage
 ------
@@ -34,3 +34,7 @@ The 'entry' tag is used. Motif and label properties are necessary.
 		<motif>[GA]CGTGTAAAGTAAATTTACAAC</motif>
 		<label>23BPZM27KDAZEIN </label>
 	</entry>
+```
+TODO
+-----
+To make gapped motif search possible.
