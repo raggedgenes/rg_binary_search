@@ -1,1 +1,1 @@
-module.exports = require('./src/binarySearch');
+module.exports = require('./src/motifSearch');

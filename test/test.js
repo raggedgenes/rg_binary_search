@@ -1,4 +1,4 @@
-var BS = require('rg_binary_search');
+var BS = require('rg_motif_search');
 
 var file = './test/test.fasta';
 
