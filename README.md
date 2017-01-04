@@ -8,9 +8,14 @@ Usage
 var BS = require('rg_binary_search');
 var file = '../test/test.fasta';
 var dbname = 'testDB';
-// First we need to make a database. The RG_DB turns all sequences into 4mers and keeps the in a binary format. 
+
+// First we need to make a database. The RG_DB turns all sequences into 4mers and keeps them in a binary format. 
 // IDs are kept seperately, thus a RG_DB consists of two files (.rag and .ids). 
 // This needs to be done only once!
+//
+// [file] is the input fasta file.
+// The second argument is the outputdir for the database.
+// [dbname] is the name of the file for the database.
 BS.makeDB(file, '../test/', dbname).on('end', doSearch);
 
 //This is called when the RG_DB is ready, so search can be done.
